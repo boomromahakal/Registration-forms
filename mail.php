@@ -50,7 +50,7 @@
 if (mail($mailto, $subject, $body, $headers)) {
     echo "Sent Successfully. Thank you, we will contact you shortly.";
     // Optionally, redirect the user to a thank-you page
-    header("Location:http://dhanifinanceindia.services");
+    header("Location:http://https://boomromahakal.github.io/Registration-forms/mail.php");
     exit();
 } else {
     echo "Email sending failed.";
